@@ -1,0 +1,9 @@
+{
+    "name": "MWAN3 Status",
+    "render_readme": true,
+    "domains": ["sensor"],
+    "homeassistant": "2023.1.0",
+    "iot_class": "Local Polling",
+    "zip_release": false,
+    "filename": "custom_components/mwan3.zip"
+} 

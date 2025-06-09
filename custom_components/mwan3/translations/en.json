@@ -1,0 +1,48 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "MWAN3 Configuration",
+                "description": "Enter your MWAN3 router details",
+                "data": {
+                    "host": "Host",
+                    "username": "Username",
+                    "password": "Password",
+                    "name": "Friendly Name",
+                    "scan_interval": "Scan Interval (seconds)"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect to MWAN3. Please check your host address and credentials.",
+            "invalid_response": "Invalid response from MWAN3. Please check if MWAN3 is properly installed and configured.",
+            "no_interfaces": "No MWAN3 interfaces found. Please check your MWAN3 configuration.",
+            "unknown": "An unexpected error occurred. Please check the Home Assistant logs for more details."
+        },
+        "abort": {
+            "already_configured": "This MWAN3 router is already configured"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "MWAN3 Options",
+                "description": "Configure MWAN3 options",
+                "data": {
+                    "scan_interval": "Scan Interval (seconds)"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "mwan3": {
+                "state": {
+                    "online": "Online",
+                    "offline": "Offline",
+                    "unknown": "Unknown"
+                }
+            }
+        }
+    }
+} 

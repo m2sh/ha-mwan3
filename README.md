@@ -88,14 +88,14 @@ title: MWAN3 Status
 ```yaml
 automation:
   - alias: "Notify on MWAN3 Interface Down"
-    trigger:
+    trigger:as
       platform: state
-      entity_id: sensor.router_alias_adsl
+      entity_id: sensor.router_alias_lte
       to: "offline"
     action:
       - service: notify.mobile_app
         data:
-          message: "MWAN3 Adsl interface is down!"
+          message: "MWAN3 LTE interface is down!"
 ```
 
 ## Troubleshooting

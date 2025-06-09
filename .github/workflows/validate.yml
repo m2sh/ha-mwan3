@@ -30,3 +30,7 @@ jobs:
       - name: Validate translations
         run: |
           python -c "import json; json.load(open('custom_components/mwan3/translations/en.json'))" 
+      - name: HACS validation
+        uses: "hacs/action@main"
+        with:
+          category: "integration"

@@ -8,5 +8,5 @@
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/m2sh/ha-mwan3/issues",
   "requirements": ["aiohttp"],
-  "version": "1.0.0"ß
-} 
+  "version": "1.0.0"
+}

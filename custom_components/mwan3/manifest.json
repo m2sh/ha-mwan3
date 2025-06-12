@@ -1,5 +1,4 @@
 {
-  "domain": "mwan3",
   "name": "MWAN3 Status",
   "codeowners": ["@m2sh"],
   "config_flow": true,
